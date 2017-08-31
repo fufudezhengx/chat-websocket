@@ -1,0 +1,12 @@
+.gua-center {
+    text-align: center;
+}
+
+.gua-center-block {
+    margin: 0 auto;
+}
+
+.gua-block {
+    display: block;
+    width: 700px;
+}

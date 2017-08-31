@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>chat</title>
+</head>
+<body>
+<h1 class="gua-center">在线聊天室</h1>
+<form class="pure-form gua-center" action="{{ url_for('.enter') }}" method="POST">
+    <input type=text name="name" placeholder="请输入昵称">
+    <button class="pure-button pure-button-primary">进入聊天室</button>
+</form>
+</body>
+
+<link href="{{ url_for('static', filename='gua.css')  }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='pure.css')  }}" rel="stylesheet">
+</html>
